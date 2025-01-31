@@ -148,20 +148,24 @@ hr {
 }
 
 .project img {
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
 }
 .projectIcons {
     margin-top: 20px;
-
+        
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* justify-content: right; */
 }
 .manipulate {
     grid-column: 2/3;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .projectIcons img{
-    margin: 0px 20px;
+    margin: 0px 5px;
 }
 
 .dash {
