@@ -252,8 +252,8 @@ li {
 }
 
 .header2 img {
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
 }
 .header2 {
     display: grid;
@@ -272,6 +272,9 @@ button {
     background-color: rgb(35, 160, 237);
     height: 40px;
     width: 90px;
+
+    color: white;
+    font-weight: 700;
 }
 .buttons {
     grid-column: 4/5;
